@@ -1,0 +1,5 @@
+pydub
+argparse
+numpy
+matplotlib
+wave
