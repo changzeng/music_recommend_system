@@ -6,4 +6,4 @@
 
 3. 运行*python3 conver_to_frames.py*将wav文件转为逐帧频率。处理结果存在music/frames文件夹下。
 
-4. 运行*python3 seg_frames_to_picture.py*将逐帧频率转为时间长度为1的等长频谱图。处理结果存在music/picture文件夹下。
+4. 运行*python3 seg_frames_to_picture.py*将逐帧频率转为时间长度为1秒的等长频谱图。处理结果存在music/picture文件夹下。
