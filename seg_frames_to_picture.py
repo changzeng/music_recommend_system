@@ -8,6 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def seg_frames(file_name, seg_time=1.0):
+	if file_name == ".gitignore" or file_name == ".DS_Store":
+		return
 	save_path = "music/picture/" + file_name.replace(".frames", "") + "/"
 	if not os.path.exists(save_path):
 		os.mkdir(save_path)
